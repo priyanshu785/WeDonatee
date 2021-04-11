@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}DONATE
+{% endblock title %}
+{% block body %}
+
+    
+
+    <form >
+    
+    <div class="mb-3">
+    <label for="exampleInputname" class="form-label">Name</label>
+    <input type="NAME" class="form-control" id="exampleIname">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPhonenumber" class="form-label">Phone Number</label>
+    <input type="phone number" class="form-control" id="exampleInputphonenumber">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputadress" class="form-label">Address</label>
+    <input type="adress" class="form-control" id="exampleInputadress">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputwhattodonate" class="form-label">what you want to donate</label>
+    <input type="what to donate" class="form-control" id="examplewhattodonate">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+{% endblock body %}
